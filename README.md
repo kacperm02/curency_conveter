@@ -2,7 +2,7 @@
 ## About project
 *Currency conveter* is a page that allows you to convert PLN to EUR
 ## Visit my site
-[Currency conveter-link](https://kacperm02.github.io/currency_conveter/)
+[Currency conveter-link](https://kacperm02.github.io/curency_conveter/)
 ## Technologies used
 - HTML
 - CSS
