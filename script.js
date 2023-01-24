@@ -6,7 +6,7 @@ let currency = 4.6477;
 exchange__form.addEventListener("input", () => {
     let number_pln = +pln.value;
 
-    let result = number_pln * currency;
+    let result = number_pln / currency;
 
     eur.value = result.toFixed(2);
     
