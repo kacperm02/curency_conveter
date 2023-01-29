@@ -18,12 +18,16 @@ exchange__form.addEventListener("input", () => {
 
     body.classList.toggle("background--dark")
     nextColorName.innerText = body.classList.contains("background--dark") ? "Zmień kolor tła na jasny" : "Zmień kolor tła na ciemny";
- };
-
+ }
  const init = () => {
     const changeBackgroundButton = document.querySelector(".js-changeBackgroundButton");
     changeBackgroundButton.addEventListener("click", toggleBackground);
  }
 
  init();
+
+button.addEventListener("click", () => {
+    body.classList.toggle("darkBackground");
+    button.innerText = body.classList.contains('darkBackground') ? "Zmień kolor tła na jasny" : "Zmień kolor tła na ciemny";
+})
 }
