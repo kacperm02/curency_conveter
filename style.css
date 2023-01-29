@@ -56,7 +56,7 @@
     background-color: hsl(240, 96%, 82%);
 
 }
-.darkBackground {
+.background--dark {
     color:white;
     background-image: url("background-dark.jpg");
     background-color: #777575;
